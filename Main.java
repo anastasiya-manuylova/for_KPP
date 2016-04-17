@@ -34,10 +34,10 @@ public class Main extends Application {
     MenuItem exitGame = new MenuItem("Exit");
     SubMenu mainMenu = new SubMenu(newGame, options, exitGame);
     MenuItem sound = new MenuItem("Sound");
-    MenuItem video = new MenuItem("Difficult");
+    MenuItem diff = new MenuItem("Difficult");
     MenuItem keys = new MenuItem("Configuration");
     MenuItem optionsBack = new MenuItem("Back");
-    SubMenu optionsMenu = new SubMenu(sound, video, keys, optionsBack);
+    SubMenu optionsMenu = new SubMenu(sound, diff, keys, optionsBack);
     MenuItem NG1 = new MenuItem("MArcanoid");
     MenuItem NG2 = new MenuItem("AI game");
     MenuItem NG3 = new MenuItem("Back");
